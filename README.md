@@ -12,3 +12,7 @@ App simples, para iniciantes em desenvolvimento com a linguagem Python.
 ### Após instalar a dependência, usar o comando:
 
 **python index.py**
+
+#### Documentação do Apier
+
+https://appier.hive.pt/
