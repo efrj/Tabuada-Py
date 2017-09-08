@@ -1,18 +1,22 @@
 # Tabuada Py
-Aplicativo Web de tabuada desenvolvido em Python, com o auxílio do micro framework Appier.
+Aplicativo Web de tabuada desenvolvido em Python, com o auxílio do micro framework Bottle.
 
-App simples, para iniciantes em desenvolvimento com a linguagem Python.
+A Tabua Py é uma app simples, para iniciantes em desenvolvimento com a linguagem Python.
 
 ## Rodando o aplicativo
 
 ### Instalar a dependência do Python usando o pip
 
-**pip install appier**
+**pip install bottle**
 
 ### Após instalar a dependência, usar o comando:
 
 **python index.py**
 
-#### Documentação do Apier
+### Visualize no browser
 
-https://appier.hive.pt/
+**http://localhost:8000/**
+
+#### Documentação do Bottle
+
+http://bottlepy.org/docs/dev/
