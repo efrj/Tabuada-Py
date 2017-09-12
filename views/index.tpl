@@ -65,7 +65,7 @@ h2, h4 {
     </div>
     <div class="row">
         %for x in range(1, 11):
-            % color = random.choice(['#cb3d00', '#336699', '#521515', '#478244', '#8f2525', '#4e5b6e', '#ff5a36', '#004b26', '#295398', '#6f0000'])
+            % color = random.choice(colors)
             <div class="col-md-2" style="margin: 10px 0;">
                 <h4 style="color:{{ color }};">Número {{ x }}</h4>
                 %for y in range(1, 11):
@@ -83,7 +83,7 @@ h2, h4 {
     </div>
     <div class="row">
         %for x in range(1, 11):
-            % color = random.choice(['#cb3d00', '#336699', '#521515', '#478244', '#8f2525', '#4e5b6e', '#ff5a36', '#004b26', '#295398', '#6f0000'])
+            % color = random.choice(colors)
             <div class="col-md-2" style="margin: 10px 0;">
                 <h4 style="color:{{ color }};">Número {{ x }}</h4>
                 %for y in range(1, 11):
