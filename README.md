@@ -1,5 +1,5 @@
 # Tabuada Py
-Aplicativo Web de tabuada desenvolvido em Python, com o auxílio do micro framework Bottle.
+Aplicativo Web de tabuada desenvolvido com o micro framework Bottle, escrito em Python.
 
 A Tabua Py é uma app simples, para iniciantes em desenvolvimento com a linguagem Python.
 
@@ -9,11 +9,11 @@ A Tabua Py é uma app simples, para iniciantes em desenvolvimento com a linguage
 
 **pip install bottle**
 
-### Após instalar a dependência, usar o comando:
+### Usar o comando para iniciar a aplicação:
 
 **python index.py**
 
-### Visualize no browser
+### Para visualizar no browser, digite:
 
 **http://localhost:8000/**
 
