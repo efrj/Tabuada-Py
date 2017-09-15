@@ -53,6 +53,31 @@
 
     <div class="row">
         <div class="col-md-12">
+            <h2>Tabuada de Subtração</h2>
+        </div>
+    </div>
+    <div class="row">
+        %for x in range(1, 11):
+            % color = random.choice(colors)
+            <div class="col-md-2" style="margin: 10px 0;">
+                <h4 style="color:{{ color }};">Número {{ x }}</h4>
+                % line = 0
+                %for y in range(1, 21):
+                    % result = (y-x)
+                    %if result >= 0:
+                        % line += 1
+                        %if line <= 10:
+                            <span style="color:{{ color }};">{{ y }}</span> - <b>{{ x }}</b> = {{ result }}<br>
+                        %end
+                    %end
+                %end
+            </div>
+        %end
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
             <h2>Tabuada de Multiplicação</h2>
         </div>
     </div>
