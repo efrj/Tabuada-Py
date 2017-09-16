@@ -93,6 +93,24 @@
         %end
         <hr>
     </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Tabuada de Divisão</h2>
+        </div>
+    </div>
+    <div class="row">
+        %for x in range(1, 11):
+            % color = random.choice(colors)
+            <div class="col-md-2" style="margin: 10px 0;">
+                <h4 style="color:{{ color }};">Número {{ x }}</h4>
+                %for y in range(1, 11):
+                    <span style="color:{{ color }};">{{ (y*x) }}</span> : <b>{{ x }}</b> = {{ y }}<br>
+                %end
+            </div>
+        %end
+        <hr>
+    </div>
 </div>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
