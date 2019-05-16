@@ -21,5 +21,9 @@ body {
 }
 
 h2, h4 {
-    font-weight: bold;
+	font-weight: bold;
+}
+
+.box-table {
+  margin: 10px 0;
 }
