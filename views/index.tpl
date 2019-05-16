@@ -10,6 +10,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 <link href="/assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/print.css" rel="stylesheet" media="print">
 
 </head>
 <body>
@@ -41,7 +42,7 @@
     <div class="row">
         %for x in range(1, 11):
             % color = random.choice(colors)
-            <div class="col-md-2" style="margin: 10px 0;">
+            <div class="col-md-2 box-table">
                 <h4 style="color:{{ color }};">Número {{ x }}</h4>
                 %for y in range(1, 11):
                     <span style="color:{{ color }};">{{ y }}</span> + <b>{{ x }}</b> = {{ (y+x) }}<br>
@@ -51,7 +52,7 @@
         <hr>
     </div>
 
-    <div class="row">
+    <div class="row top-box">
         <div class="col-md-12">
             <h2>Tabuada de Subtração</h2>
         </div>
@@ -59,7 +60,7 @@
     <div class="row">
         %for x in range(1, 11):
             % color = random.choice(colors)
-            <div class="col-md-2" style="margin: 10px 0;">
+            <div class="col-md-2 box-table">
                 <h4 style="color:{{ color }};">Número {{ x }}</h4>
                 % line = 0
                 %for y in range(1, 21):
@@ -76,7 +77,7 @@
         <hr>
     </div>
 
-    <div class="row">
+    <div class="row top-box">
         <div class="col-md-12">
             <h2>Tabuada de Multiplicação</h2>
         </div>
@@ -84,7 +85,7 @@
     <div class="row">
         %for x in range(1, 11):
             % color = random.choice(colors)
-            <div class="col-md-2" style="margin: 10px 0;">
+            <div class="col-md-2 box-table">
                 <h4 style="color:{{ color }};">Número {{ x }}</h4>
                 %for y in range(1, 11):
                     <span style="color:{{ color }};">{{ y }}</span> x <b>{{ x }}</b> = {{ (y*x) }}<br>
@@ -94,7 +95,7 @@
         <hr>
     </div>
 
-    <div class="row">
+    <div class="row top-box">
         <div class="col-md-12">
             <h2>Tabuada de Divisão</h2>
         </div>
@@ -102,7 +103,7 @@
     <div class="row">
         %for x in range(1, 11):
             % color = random.choice(colors)
-            <div class="col-md-2" style="margin: 10px 0;">
+            <div class="col-md-2 box-table">
                 <h4 style="color:{{ color }};">Número {{ x }}</h4>
                 %for y in range(1, 11):
                     <span style="color:{{ color }};">{{ (y*x) }}</span> : <b>{{ x }}</b> = {{ y }}<br>
