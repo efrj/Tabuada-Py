@@ -1,0 +1,17 @@
+body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.box-table {
+  float: left;
+  font-size: 15px;
+}
+
+.navbar {
+  display: none;
+}
+
+.top-box {
+  margin-top: 80px;
+}
